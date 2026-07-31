@@ -1,10 +1,10 @@
-from flask importt Flask
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.roue("/")
+@app.route("/")
 def hello():
     return "Hello from ai-dev container!"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=50000)
+    app.run(host="0.0.0.0", port=5000)
