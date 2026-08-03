@@ -39,5 +39,7 @@ Career change — moving into AI/ML as a new career direction. By the end of the
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
 | 2026-07-27 | Phase 0, Lessons 01-06 (Dev Environment, Git & Collaboration, GPU Setup & Cloud, APIs & Keys, Jupyter Notebooks, Python Environments) | — | Completed before this file existed; imported from session memory. Next up: Lesson 07, Docker for AI. |
+| 2026-08-03 | Phase 0, Lesson 07 (Docker for AI) | 1/3 | Had already built the Dockerfile/Dockerfile.runtime/app.py hands-on (committed 2026-07-31) before this session, including the runtime-vs-devel size comparison. Missed why volume mounts matter (thought they were about GPU sharing) and what the NVIDIA Container Toolkit does (thought it installs CUDA drivers in-container). Got the devel-vs-runtime image size reasoning and Compose networking-by-service-name right.
 
 ## Review queue
+- Phase 0, Lesson 07 (Docker for AI): volume mounts (why they matter — persisting models/datasets/code, not GPU sharing) and NVIDIA Container Toolkit (exposes host GPU via `--gpus`, doesn't install drivers in-container)
