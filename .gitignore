@@ -72,3 +72,10 @@ i18n/*/phases/
 i18n/*/.cache/
 i18n/*/.translate-cache.json
 site/langs.js
+
+scratch*.py
+split_test*.py
+cache_test*.py
+imdb_train.csv
+imdb_train.json
+imdb_train.parquet
