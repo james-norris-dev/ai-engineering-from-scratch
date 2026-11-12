@@ -39,5 +39,6 @@ Career change — moving into AI/ML as a new career direction. Build goal for th
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
 | 2026-11-12 | 00/01-dev-environment | 3/3 | Built .venv (Py 3.12 via uv) + Rust; 7/7 core checks. Initially wanted to check PyTorch before Python (layer order) and tried `pytorch --version`; understood PATH reload after cargo install. No NVIDIA GPU (WSL2), CPU-only. |
+| 2026-11-12 | 00/02-git-and-collaboration | 3/3 | Sandbox repo ~/git-lab: add/commit, branch, fast-forward merge, .gitignore. Thought commit without add saves message only (it refuses); wrote `git add` with no file; mixed up push vs merge wording. Pushed LEARNING.md to fork for real. |
 
 ## Review queue
